@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a26195da;
+  padding: 0;
+  margin:0;
+  margin-top:300px;
+  margin-bottom:300px;
+}
+*{
+  font-family: Gloock;
+}
+
+
+.container {
+    width: 70%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.form-column {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+  
+}
+h3 {
+    text-align: center;
+    color: #333;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+  
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.checkbox-container input {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom:-3px;
+  font-weight:bolder
+}
+.btn {
+  height: 55px;
+width: 100%;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 30px;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease;
+background: rgb(114, 26, 108);
+}
+
+.btn:hover {
+  background: rgb(83, 19, 75);
+}
+.reset-btn {
+  height: 55px;
+width: 100%;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 30px;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease;
+background: rgb(114, 26, 108);
+}
+
+.reset-btn:hover {
+  background: rgb(83, 19, 75);
+}
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+}

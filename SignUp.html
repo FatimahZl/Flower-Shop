@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <script  src="SignUp.js"></script>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Registration Form - Bloom Boutique</title>
+  <link rel="stylesheet" href="SignUp.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<!--- imports SheetJS (xlsx.js), a library for handling Excel files.-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<body>
+  
+  <section class="container">
+    <header>Registration Form</header>
+    <p id="error-message"></p>
+    <form id="form" class="form">
+      
+      <div class="input-box">
+        <label for="nic">NIC</label>
+        <input type="text" id="nic" name="nic" placeholder="NIC" required>
+        <span id="nic_error"></span>
+      </div>
+    
+      <div class="column">
+        <div class="input-box">
+         
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Firstname" required>
+        
+        </div>
+
+        <div class="input-box">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" name="surname" placeholder="Surname" required>
+        </div>
+
+
+        <div class="input-box">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+      </div>
+      <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender-option">
+          <div class="gender">
+            <input type="radio" id="male" name="gender" />
+            <label for="male">male</label>
+          </div>
+          <div id="gender-message">
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="select-box">
+
+            <select id="country" name="country">
+              <option hidden>Country</option>
+              <option value="us">United States</option>
+              <option value="uk">United Kingdom</option>
+              <option value="india">India</option>
+              <option value="africa">Africa</option>
+              <option value="mauritius">Mauritius</option>
+              <option value="canada">Canada</option>
+              <option value="italy">Italy</option>
+              <option value="france">France</option>
+              <option value="qatar">Qatar</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+       <div class="input-box">
+        <label for="Email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email" required>
+        
+      
+      </div>
+      <div class="input-box">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+       
+      
+      </div>
+     
+      <div class="column">
+        <div class="input-box">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="input-box">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Password" required>
+        </div>
+
+      </div>
+      
+      <div class="column">
+        <button type="submit" onclick="showError()" >Register</button>
+        <button type="reset" onclick="confirmReset()">Reset</button>
+      </div>
+      <div class="login-link">
+        <p>Already have an account?</p>
+        <a href="login.html">Login here</a>
+      </div>
+     
+    </form>
+ </section> 
+ 
+ 
+ <script src="SignUp.js"></script>
+</body>
+
+
+</html>
+
+

@@ -1,0 +1,187 @@
+[
+  {
+    "question": "What is the scientific name of the rose?",
+    "options": ["Rosa", "Rosaceae", "Rosales", "Rosalina"],
+    "answer": "Rosa"
+  },
+  {
+    "question": "Which part of the flower produces pollen?",
+    "options": ["Stigma", "Petal", "Anther", "Ovary"],
+    "answer": "Anther"
+  },
+  {
+    "question": "What is the process by which flowers reproduce?",
+    "options": ["Photosynthesis", "Pollination", "Transpiration", "Germination"],
+    "answer": "Pollination"
+  },
+  {
+    "question": "Which flower is known as the 'queen of the night' because it blooms at night?",
+    "options": ["Moonflower", "Jasmine", "Orchid", "Night-blooming cereus"],
+    "answer": "Night-blooming cereus"
+  },
+  {
+    "question": "Which flower is used to produce saffron spice?",
+    "options": ["Tulip", "Crocus", "Lily", "Marigold"],
+    "answer": "Crocus"
+  },
+  {
+    "question": "What pigment gives flowers their red, blue, and purple colors?",
+    "options": ["Chlorophyll", "Anthocyanin", "Carotenoid", "Xanthophyll"],
+    "answer": "Anthocyanin"
+  },
+  {
+    "question": "Which flower is known for its ability to track the sun?",
+    "options": ["Lily", "Daisy", "Sunflower", "Orchid"],
+    "answer": "Sunflower"
+  },
+  {
+    "question": "What is the largest flower in the world?",
+    "options": ["Titan Arum", "Rafflesia", "Corpse Flower", "Giant Lily"],
+    "answer": "Rafflesia"
+  },
+  {
+    "question": "Which flower symbolizes peace?",
+    "options": ["Lily", "Rose", "Lavender", "Olive branch"],
+    "answer": "Lily"
+  },
+  {
+    "question": "Which part of the flower develops into a fruit?",
+    "options": ["Petal", "Sepal", "Ovary", "Anther"],
+    "answer": "Ovary"
+  },
+  {
+    "question": "Which flower is commonly associated with Valentine's Day?",
+    "options": ["Tulip", "Daisy", "Rose", "Lily"],
+    "answer": "Rose"
+  },
+  {
+    "question": "What is Japan's national flower?",
+    "options": ["Cherry Blossom", "Lotus", "Orchid", "Tulip"],
+    "answer": "Cherry Blossom"
+  },
+  {
+    "question": "Which flower is known for its medicinal properties?",
+    "options": ["Dandelion", "Lavender", "Sunflower", "Poppy"],
+    "answer": "Lavender"
+  },
+  {
+    "question": "Which flower represents remembrance and is worn on Remembrance Day?",
+    "options": ["Rose", "Tulip", "Poppy", "Daffodil"],
+    "answer": "Poppy"
+  },
+  {
+    "question": "Which flower is commonly used in wedding bouquets?",
+    "options": ["Orchid", "Daisy", "Rose", "Sunflower"],
+    "answer": "Rose"
+  },
+  {
+    "question": "Which flower symbolizes good fortune in Chinese culture?",
+    "options": ["Peony", "Daffodil", "Lotus", "Orchid"],
+    "answer": "Peony"
+  },
+  {
+    "question": "Which flower is associated with Easter?",
+    "options": ["Lily", "Tulip", "Daffodil", "Daisy"],
+    "answer": "Lily"
+  },
+  {
+    "question": "Which flower is considered sacred in Buddhism and Hinduism?",
+    "options": ["Lotus", "Marigold", "Jasmine", "Orchid"],
+    "answer": "Lotus"
+  },
+  {
+    "question": "Which flower is known for its strong scent and is often used in perfumes?",
+    "options": ["Jasmine", "Rose", "Lavender", "Orchid"],
+    "answer": "Jasmine"
+  },
+  {
+    "question": "Which flower’s seeds are used to make cooking oil?",
+    "options": ["Dandelion", "Sunflower", "Poppy", "Sesame"],
+    "answer": "Sunflower"
+  },
+  {
+    "question": "Which flower is associated with the Netherlands?",
+    "options": ["Daisy", "Tulip", "Lily", "Rose"],
+    "answer": "Tulip"
+  },
+  {
+    "question": "Which flower can survive in the desert with minimal water?",
+    "options": ["Orchid", "Cactus Flower", "Lily", "Daisy"],
+    "answer": "Cactus Flower"
+  },
+  {
+    "question": "Which flower is associated with Christmas?",
+    "options": ["Daffodil", "Poinsettia", "Orchid", "Tulip"],
+    "answer": "Poinsettia"
+  },
+  {
+    "question": "Which part of the flower attracts pollinators?",
+    "options": ["Sepal", "Petal", "Stigma", "Ovary"],
+    "answer": "Petal"
+  },
+  {
+    "question": "Which flower is known as the 'flower of the dead' in Mexican culture?",
+    "options": ["Rose", "Marigold", "Lily", "Tulip"],
+    "answer": "Marigold"
+  },
+  {
+    "question": "Which flower is known for closing its petals at night?",
+    "options": ["Orchid", "Tulip", "Daisy", "Morning Glory"],
+    "answer": "Morning Glory"
+  },
+  {
+    "question": "Which flower’s name means 'ten thousand years' in Chinese?",
+    "options": ["Chrysanthemum", "Lotus", "Orchid", "Rose"],
+    "answer": "Chrysanthemum"
+  },
+  {
+    "question": "Which flower is commonly associated with funerals?",
+    "options": ["Lily", "Rose", "Daisy", "Orchid"],
+    "answer": "Lily"
+  },
+  {
+    "question": "Which flower’s extract is used to make herbal tea?",
+    "options": ["Rose", "Hibiscus", "Sunflower", "Lavender"],
+    "answer": "Hibiscus"
+  },
+  {
+    "question": "Which flower is known as a symbol of wisdom?",
+    "options": ["Iris", "Orchid", "Sunflower", "Daffodil"],
+    "answer": "Iris"
+  },
+  {
+    "question": "Which flower is known for its ability to trap insects?",
+    "options": ["Venus Flytrap", "Sunflower", "Daisy", "Orchid"],
+    "answer": "Venus Flytrap"
+  },
+  {
+    "question": "Which flower’s oil is used in aromatherapy for relaxation?",
+    "options": ["Lavender", "Rose", "Jasmine", "Lily"],
+    "answer": "Lavender"
+  },
+  {
+    "question": "Which flower is known for blooming only once a year?",
+    "options": ["Corpse Flower", "Orchid", "Rose", "Dandelion"],
+    "answer": "Corpse Flower"
+  },
+  {
+    "question": "Which flower is traditionally thrown at weddings?",
+    "options": ["Lily", "Daisy", "Rose", "Orchid"],
+    "answer": "Rose"
+  },
+  {
+    "question": "Which flower is known for surviving extreme cold conditions?",
+    "options": ["Snowdrop", "Tulip", "Orchid", "Poppy"],
+    "answer": "Snowdrop"
+  },
+  {
+    "question": "Which flower is a symbol of loyalty?",
+    "options": ["Daisy", "Iris", "Rose", "Orchid"],
+    "answer": "Iris"
+  },
+  {
+    "question": "Which flower’s name means 'beautiful sword'?",
+    "options": ["Daffodil", "Gladiolus", "Orchid", "Tulip"],
+    "answer": "Gladiolus"
+  }
+]

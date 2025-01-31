@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Shop - Bloom Boutique</title>
+   <link rel="stylesheet" href="Shop.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+<body>
+  <header>
+    <h1>Bloom Boutique.</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Shop.html">Shop</a>
+    <a href="Contact.html">Contact</a>
+    <a href="About.html">About Us</a>
+     <div id="cart-icon">
+      <i class="ri-shopping-cart-2-fill"></i>
+      <span class="cart-item-count"></span>
+    </div>
+    <a class="login-link" href="login.html"><svg  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" 
+      fill="#000000"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133
+       0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 
+       59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 
+       0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-
+       53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17
+        43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg></a>
+   
+  </nav> 
+
+<div class="cart">
+  <h2 class="cart-title">Your Cart</h2>
+  <div class="cart-content">
+   <!-- <div class="cart-box">
+      <img src="Thumbnails/tulip2.jpg" class="cart-img">
+      <div class="cart-detail">
+        <h2 class="cart-product-title">Tulip Bouquet</h2>
+        <span class="cart-price">$40</span>
+        <div class="cart-quantity">
+          <button id="decrement">-</button>
+          
+          <span class="number">1</span>
+          <button id="increment">+</button>
+        </div>
+      </div>
+      <i class="ri-delete-bin-line cart-remove"></i>
+    </div> -->
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$</div>
+  </div>
+  <button class="btn-buy">Buy Now</button>
+  <i class="ri-close-line" id="cart-close"></i> 
+</div>
+
+  <section class="shop">
+    <h1 class="section-title">Shop Products</h1>
+    <div class="product-content">
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img1.jpg" >
+        </div>
+        <h2 class="product-title">Chamomile Daisies Bouquet</h2>
+        <div class="price-and-cart">
+          <span class="price">$30</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img2.jpg" >
+        </div>
+        <h2 class="product-title">Pink Tulips Bouquet</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img3.jpg">
+        </div>
+        <h2 class="product-title">Blush Elegance</h2>
+        <div class="price-and-cart">
+          <span class="price">$50</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img4.jpg" >
+        </div>
+        <h2 class="product-title">Buttercream Bliss</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img5.jpg" >
+        </div>
+        <h2 class="product-title">Sunflower Serenade</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img6.jpg" >
+        </div>
+        <h2 class="product-title">Lily's Embrace</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img7.jpg" >
+        </div>
+        <h2 class="product-title">Sunflower Kiss</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img8.jpg" >
+        </div>
+        <h2 class="product-title">Pink Paradise</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img9.jpg" >
+        </div>
+        <h2 class="product-title">Pink Roses</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img10.jpg" >
+        </div>
+        <h2 class="product-title">Rose Bouquet</h2>
+        <div class="price-and-cart">
+          <span class="price">$60</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img11.jpg" >
+        </div>
+        <h2 class="product-title">Red and Pink Mix</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img12.jpg" >
+        </div>
+        <h2 class="product-title">Flame of Love</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img13.jpg" >
+        </div>
+        <h2 class="product-title">Blush Bloom</h2>
+        <div class="price-and-cart">
+          <span class="price">$90</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img14.jpg" >
+        </div>
+        <h2 class="product-title">Sunflower and Daisies Mix</h2>
+        <div class="price-and-cart">
+          <span class="price">$70</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img15.jpg" >
+        </div>
+        <h2 class="product-title">Sun-kissed Ivory </h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img16.jpg" >
+        </div>
+        <h2 class="product-title">Peach Frost</h2>
+        <div class="price-and-cart">
+          <span class="price">$30</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img17.jpg" >
+        </div>
+        <h2 class="product-title">Tulip Bouquet</h2>
+        <div class="price-and-cart">
+          <span class="price">$70</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img18.jpg" >
+        </div>
+        <h2 class="product-title">White Tulips</h2>
+        <div class="price-and-cart">
+          <span class="price">$40</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img19.jpg" >
+        </div>
+        <h2 class="product-title">Amber Frost</h2>
+        <div class="price-and-cart">
+          <span class="price">$50</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+      <div class="product-box">
+        <div class="img-box">
+          <img src="Thumbnails/img20.jpg" >
+        </div>
+        <h2 class="product-title">Ethereal Whisper</h2>
+        <div class="price-and-cart">
+          <span class="price">$60</span>
+          <i class="ri-shopping-cart-2-fill add-cart"></i>
+        </div>
+        
+      </div>
+
+
+
+    </div>
+  </section>
+  <footer >
+    <div class="container">
+     <div class="footer-content">
+       <h3><strong>Bloom Boutique. </strong></h3>
+       <p>123, Floral Street, Mauritius</p>
+       <p>Whatsapp: 230 58942099 </p>
+       <p>Email: info@BloomBoutique.com</p>
+     
+   </div>
+   
+   <div class="footer-content">
+     <h3><strong>Opening Hours </strong></h3>
+       <p>Monday to Friday: 8:30am to 5:00pm</p>
+       <p>Saturday: 8:30am to 1:30pm</p>
+       <p>Closed on Sunday and public holiday</p>
+   </div>
+   
+   <div class="footer-content">
+     <h3><strong>Customer Service</strong></h3>
+     <p><a  class="Contact-footer" href="Contact.html">Contact Us</a></p>
+     
+   </div>
+
+   
+
+ </div> 
+ <div class="bottom-bar">
+     <p>© 2025 Bloom Boutique. All rights reserved.</p>
+
+   </div>
+</footer>
+<script src="Shop.js"></script>
+</body>
+</html>
